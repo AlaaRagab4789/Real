@@ -1,0 +1,462 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    }
+    
+    .header-nav{
+
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+        
+    
+    }
+    
+    .header-nav {
+        background-color: #fff;
+    }
+    
+    .header-nav .nav-icon{
+    
+    height: auto;
+    }
+    
+    .header-nav .nav-lists{
+    
+        height: auto;
+        margin-top: 10px;
+    }
+    
+    
+    .header-alpha{
+        background-color: rgba(0,0,0,0.6);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+
+        }
+        
+        .header-alpha .demo{
+        
+        text-align: center;
+        }
+        
+        .header-alpha .demo h2{
+        
+        padding: 12px 0px;
+        font-weight: 700;
+        font-size: 45px;
+        
+        }
+        
+        .header-alpha .demo h2::after{
+        
+            content: " ";
+            padding: 12px 0px;
+        
+            animation-name: dem;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        
+        }
+        
+        @keyframes dem{
+        
+        3%{
+            content: "Y";
+        
+        }
+        
+        6%{
+            content: "Yo";
+        
+        }
+        
+        9%{
+            content: "You";
+            
+        }
+        
+        12%{
+            content: "Your";
+        
+        }
+        
+        15%{
+            content: "Your D";
+        
+        }
+        
+        18%{
+            content: "Your Dr";
+        
+        }
+        
+        21%{
+            content: "Your Dre";
+        
+        }
+        
+        24%{
+            content: "Your Drea";
+        
+        }
+        
+        27%{
+            content: "Your Dream";
+        
+        }
+        
+        30%{
+            content: "Your Dream H";
+        
+        }
+        
+        33%{
+            content: "Your Dream Ho";
+        
+        }
+        
+        36%{
+            content: "Your Dream Hom";
+        
+        }
+        
+        39%{
+            content: "Your Dream Home";
+            
+        }
+        
+        42%{
+            content: "Your Dream Hom";
+        
+        }
+        
+        45%{
+            content: "Your Dream Ho";
+        
+        }
+        
+        48%{
+            content: "Your Dream H";
+        
+        }
+        
+        51%{
+            content: "Your Dream";
+        
+        }
+        
+        54%{
+            content: "Your Drea";
+        
+        }
+        
+        57%{
+            content: "Your Dre";
+        
+        }
+        
+        60%{
+            content: "Your Dr";
+        
+        }
+        
+        63%{
+            content: "Your D";
+        
+        }
+        
+        66%{
+            content: "Your";
+        
+        }
+        
+        69%{
+            content: "You";
+        
+        }
+        
+        72%{
+            content: "Yo";
+        
+        }
+        
+        75%{
+            content: "Y";
+        
+        }
+        
+        78%{
+            content: " ";
+        
+        }
+        
+        }
+        .header-alpha .demo h5{
+        
+        padding: 6px 0px;
+        font-size: 22px;
+        color: #eee;
+        
+        }
+        
+        .header-alpha .demo button{
+        
+        margin: 10px 0px;
+         border: none;
+         outline: none;
+         padding: 12px 25px;
+         background-color: #39427d;
+         color: #fff;
+         border-radius: 5px;
+         font-size: 16px;
+         font-weight: 300;
+        }
+        
+        
+    
+    
+     
+    .header-nav .nav-lists ul li{
+    
+    list-style-type: none;
+    float: left;
+    padding: 8px 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+    
+    
+    }
+    
+    .header-nav .nav-lists ul .signin{
+    
+    
+        border: none;
+        padding: 10px 22px;
+        border: none;
+        outline: none;
+        background-color: #39466d;
+        color: #fff;
+        border-radius: 5px;
+        font-weight: 400;
+    
+    }
+    
+    
+    
+    
+    
+    
+    .header-nav .nav-lists ul li{
+        color: #666;
+        font-weight: 400;
+        font-size: 15.5px;
+    }
+    
+    .header-alpha{
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .carousel-inner .item1{
+    
+        background-image: url(../image/p-6.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+        }
+        
+        .carousel-inner .item2{
+        
+        background-image: url(../image/p-4.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        }
+        
+        .carousel-inner .item3{
+        
+        background-image: url(../image/p-7.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        }
+    
+    .carousel-inner .header-alpha .form1 h2{
+    
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.4em;
+    }
+    .carousel-inner .header-alpha .form1 h2 span{
+    
+    font-weight: 300;
+    }
+    
+    
+    
+    /**End Header**/
+
+
+    .preload2{
+
+
+    position: fixed;
+    z-index: 999999;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+    transition: 1s;
+    }
+    
+    .preload22{
+
+    height: 100%;
+    background-color: #fff;
+    width: 78%;
+
+    }
+
+
+    .preload2 .preload22{
+
+    padding: 30px 0px;
+    }
+
+
+    .preload2 .preload22 .prel3 ul{
+
+        margin: 0px;
+    }
+    .preload2 .preload22 .prel3 ul li{
+
+
+    list-style-type: none;
+    padding: 15px 0px;
+    }
+
+    .preload2 .preload22 .ico{
+
+     text-align: right;
+     margin-top: 12px;
+    }
+
+    .preload2 .preload22 .prel3 ul .signin{
+    
+    
+        border: none;
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+        background-color: #39466d;
+        color: #fff;
+        border-radius: 5px;
+        font-weight: 400;
+    
+    }
+
+    .preload2 .preload22 .prel3 ul li{
+        color: #39466d;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    @media(max-width: 1200px){
+
+
+        .nav-lists ul li{
+    
+            display: none;
+            
+            }
+        
+        .nav-lists .lo{
+        
+            display: block;
+            width: 100%;
+            text-align: right;
+        
+        }
+    }
+    
+    @media(min-width: 1200px){
+    
+    .header-nav .nav-lists ul .lo{
+      display: none;
+    
+            
+     }
+    
+        
+    
+    }
+    
+
+    @media(max-width: 700px){
+
+
+        .header-alpha .demo h2{
+    
+            padding: 10px 0px;
+            font-weight: 700;
+            font-size: 27px;
+        }
+            .header-alpha .demo h5{
+            
+            padding: 10px 0px;
+            font-size: 16px;
+            
+            
+        }
+    }
+
+    
+    @media(max-width: 500px){
+
+
+        .carousel-inner .item1{
+    
+            background-image: url(../image/resized-image-Promo6.jpeg);
+            height: 580px!important;
+            background-repeat: no-repeat;
+            
+            }
+            
+            .carousel-inner .item2{
+            
+            background-image: url(../image/resized-image-Promo4.jpeg);
+            height: 580px!important;
+            background-repeat: no-repeat;
+            }
+            
+            .carousel-inner .item3{
+            
+            background-image: url(../image/resized-image-Promo3.jpeg);
+            height: 580px!important;
+            background-repeat: no-repeat;
+            }
+    }
